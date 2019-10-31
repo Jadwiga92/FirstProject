@@ -20,7 +20,7 @@ a {
 
 #header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 5;
     display: flex;
     justify-content: space-around;
@@ -244,4 +244,108 @@ footer div p {
     cursor: pointer;
     font-size: 2rem;
     margin: 2rem 20rem;
+}
+
+@media only screen and (max-width:480px) {
+    li,
+    a {
+        font-size: 2rem;
+    }
+    #header {
+        flex-direction: column;
+    }
+    .logo {
+        width: 13rem;
+        position: absolute;
+        top: 20%;
+        left: 0;
+    }
+    .navLinks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+    }
+    .navLinks li {
+        padding: 5px;
+        display: block;
+    }
+    .aboutMe h2 {
+        top: 20%;
+        left: 50%;
+        font-size: 3rem;
+    }
+    .aboutMe p {
+        font-size: 2rem;
+        width: 90%;
+    }
+    .technologies h2 {
+        font-size: 2.5rem;
+    }
+    .technologies i {
+        font-size: 5rem;
+        margin: 5rem 0;
+    }
+    .technologies i:hover {
+        transform: scale(1);
+    }
+    .portfolio h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .portfolio .portfolioPictures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+    .portfolio img {
+        cursor: pointer;
+        width: 100%;
+    }
+    .portfolio .overlay {
+        position: relative;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 1rem;
+    }
+    .link p {
+        font-size: 1.25rem;
+        color: white;
+    }
+    .portfolio .overlay .link {
+        opacity: 0.8;
+    }
+    footer {
+        background-color: rgba(41, 34, 34, 0.89);
+        font-family: 'Rubik', sans-serif;
+    }
+    footer h2 {
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+    .mail,
+    .phone,
+    .linkedin {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: white;
+    }
+    footer i {
+        font-size: 2rem;
+        margin: 1rem 0;
+        width: 50%;
+        text-align: center;
+    }
+    footer div p {
+        font-size: 1.75rem;
+        text-align: left;
+        margin: 1rem 0;
+        width: 50%;
+    }
 }
