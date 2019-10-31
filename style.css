@@ -349,3 +349,64 @@ footer div p {
         width: 50%;
     }
 }
+
+@media only screen and (max-width:768px) {
+    li,
+    a {
+        font-size: 2rem;
+    }
+    .logo {
+        width: 15rem;
+    }
+    .aboutMe h2 {
+        font-size: 5rem;
+    }
+    .aboutMe p {
+        font-size: 3rem;
+        width: 90%;
+    }
+    .technologies h2 {
+        font-size: 3rem;
+    }
+    .technologies i {
+        font-size: 7rem;
+        margin: 8rem 0;
+    }
+    .technologies i:hover {
+        transform: scale(1.25);
+    }
+    .portfolio h2 {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+    .portfolio img {
+        width: 100%;
+    }
+    .portfolio .overlay {
+        width: 80%;
+        margin: 1rem;
+    }
+    .link p {
+        font-size: 2rem;
+    }
+    .portfolio .overlay .link {
+        opacity: 0.8;
+    }
+    footer {
+        background-color: rgba(41, 34, 34, 0.89);
+        font-family: 'Rubik', sans-serif;
+    }
+    footer h2 {
+        font-size: 3rem;
+        padding: 2rem 0;
+    }
+    footer i {
+        font-size: 2.5rem;
+        margin: 1rem 0;
+        width: 50%;
+        text-align: center;
+    }
+    footer div p {
+        margin: 1.5rem 0;
+    }
+}
