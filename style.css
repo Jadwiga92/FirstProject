@@ -246,6 +246,106 @@ footer div p {
     margin: 2rem 20rem;
 }
 
+@media only screen and (max-width:1024px) {
+    .aboutMe {
+        font-size: 5rem;
+    }
+    .aboutMe p {
+        font-size: 3rem;
+        width: 80%;
+    }
+    .technologies h2 {
+        font-size: 4rem;
+    }
+    .technologies i {
+        font-size: 10rem;
+    }
+    .technologies i:hover {
+        transform: scale(1.6);
+    }
+    .portfolio h2 {
+        font-size: 4rem;
+        margin-bottom: 7rem;
+    }
+    .link p {
+        font-size: 1.8rem;
+    }
+    footer h2 {
+        font-size: 3rem;
+        padding: 2rem 0;
+    }
+    footer i {
+        font-size: 2.5rem;
+        margin: 1rem 0;
+        width: 50%;
+        text-align: center;
+    }
+    footer div p {
+        margin: 1.5rem 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    li,
+    a {
+        font-size: 2rem;
+    }
+    .logo {
+        width: 15rem;
+    }
+    .aboutMe h2 {
+        font-size: 5rem;
+    }
+    .aboutMe p {
+        font-size: 3rem;
+        width: 90%;
+    }
+    .technologies h2 {
+        font-size: 3rem;
+    }
+    .technologies i {
+        font-size: 7rem;
+        margin: 8rem 0;
+    }
+    .technologies i:hover {
+        transform: scale(1.25);
+    }
+    .portfolio h2 {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+    .portfolio img {
+        width: 100%;
+    }
+    .portfolio .overlay {
+        width: 80%;
+        margin: 1rem;
+    }
+    .link p {
+        font-size: 2rem;
+    }
+    .portfolio .overlay .link {
+        opacity: 0.8;
+    }
+    footer {
+        background-color: rgba(41, 34, 34, 0.89);
+        font-family: 'Rubik', sans-serif;
+    }
+    footer h2 {
+        font-size: 3rem;
+        padding: 2rem 0;
+    }
+    footer i {
+        font-size: 2.5rem;
+        margin: 1rem 0;
+        width: 50%;
+        text-align: center;
+    }
+    footer div p {
+        margin: 1.5rem 0;
+    }
+}
+
 @media only screen and (max-width:480px) {
     li,
     a {
@@ -350,63 +450,131 @@ footer div p {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:360px) {
+    .aboutMe h2 {
+        top: 50%;
+        left: 50%;
+        font-size: 3rem;
+    }
+    @keyframes h2Animation {
+        0% {
+            top: 0;
+            opacity: 0;
+        }
+        25% {
+            opacity: 0.25
+        }
+        50% {
+            opacity: 0.5;
+        }
+        75% {
+            opacity: 0.75
+        }
+        100% {
+            top: 40vw;
+            opacity: 1
+        }
+    }
+}
+
+@media only screen and (max-width:320px) {
     li,
     a {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    #header {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: rgb(40, 40, 138);
     }
     .logo {
-        width: 15rem;
+        width: 10rem;
+    }
+    .navLinks {
+        display: block;
+    }
+    .navLinks li {
+        padding: 8px;
+        display: block;
+    }
+    .navLinks li a {
+        padding: 5px;
+        transition: all 0.2s linear;
+        color: white;
+    }
+    .navLinks li a:hover {
+        color: white;
     }
     .aboutMe h2 {
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+    @keyframes h2Animation {
+        0% {
+            top: 0;
+            opacity: 0;
+        }
+        25% {
+            opacity: 0.25
+        }
+        50% {
+            opacity: 0.5;
+        }
+        75% {
+            opacity: 0.75
+        }
+        100% {
+            top: 5%;
+            opacity: 1
+        }
     }
     .aboutMe p {
-        font-size: 3rem;
-        width: 90%;
+        font-size: 1.75rem;
+        width: 70%;
     }
     .technologies h2 {
-        font-size: 3rem;
-    }
-    .technologies i {
-        font-size: 7rem;
-        margin: 8rem 0;
-    }
-    .technologies i:hover {
-        transform: scale(1.25);
-    }
-    .portfolio h2 {
-        font-size: 3rem;
-        margin-bottom: 5rem;
-    }
-    .portfolio img {
-        width: 100%;
-    }
-    .portfolio .overlay {
-        width: 80%;
-        margin: 1rem;
-    }
-    .link p {
         font-size: 2rem;
     }
-    .portfolio .overlay .link {
-        opacity: 0.8;
+    .technologies i {
+        font-size: 4rem;
+        margin: 4rem 0;
     }
-    footer {
-        background-color: rgba(41, 34, 34, 0.89);
-        font-family: 'Rubik', sans-serif;
+    .technologies i:hover {
+        transform: scale(1);
+    }
+    .portfolio h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .portfolio .portfolioPictures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
     }
     footer h2 {
-        font-size: 3rem;
-        padding: 2rem 0;
-    }
-    footer i {
         font-size: 2.5rem;
-        margin: 1rem 0;
-        width: 50%;
-        text-align: center;
+        padding: 1rem 0;
+    }
+    .mail,
+    .phone,
+    .linkedin {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fa-linkedin,
+    .fa-phone,
+    .fa-envelope {
+        display: none;
     }
     footer div p {
-        margin: 1.5rem 0;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0.5rem 0;
+        width: 50%;
     }
 }
