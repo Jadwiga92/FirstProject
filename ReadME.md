@@ -32,5 +32,5 @@ The Portfolio section contains pictures of 4 projects and used technologies pres
 ![Technologies](ReadmeImags/technologies.png)
 ![Projects](ReadmeImags/projects.png)
 
-💚If you like my website and wish to cooperate with me you must absolutely see Contact section! 💚
+💚If you like my website and wish to cooperate with me you must absolutely see Contact section!->> [SEE HERE](https://jadwiga92.github.io/FirstProject/) 💚
 
